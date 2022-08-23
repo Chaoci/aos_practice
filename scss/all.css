@@ -1,0 +1,294 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200&family=Roboto&family=Rubik&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+html, body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+.container h2 {
+  font-size: 64px;
+  line-height: 1.3;
+  font-weight: medium;
+}
+
+.first-stage {
+  width: 100%;
+  height: 958px;
+  margin: 0 auto;
+  background-image: url("https://github.com/Chaoci/Week2Cut/blob/main/image/photo-1552393700-42696fb89bfa.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.first-stage p {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.first-stage h1 {
+  font-size: 80px;
+  line-height: 1.33;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.first-stage ul {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-container {
+  padding-top: 56px;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.about-content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-content h2 {
+  margin-bottom: 40px;
+}
+.about-content hr {
+  width: 384px;
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+.about-content .about-text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.about-content .about-text li {
+  line-height: 1.45;
+  font-size: 22px;
+  font-weight: bold;
+}
+.about-content .about-text .about-birth {
+  margin-top: 4px;
+}
+.about-content .about-text .about-school {
+  margin-top: 8px;
+}
+
+.about-list {
+  text-align: center;
+  margin-bottom: 56px;
+}
+.about-list li:before {
+  content: "⬤";
+  color: #891818;
+  font-style: normal;
+  margin-right: 16px;
+}
+.about-list li {
+  line-height: 1.45;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 28px;
+}
+
+.brand-container {
+  background-color: black;
+  border: 1px solid #707070;
+}
+
+.brand-content {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 56px;
+  padding-bottom: 160px;
+}
+
+.brand-text {
+  text-align: center;
+  color: #ffffff;
+}
+.brand-text h2 {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+.brand-text p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+.brand-text .brand-en {
+  font-size: 24px;
+  line-height: 1.5;
+}
+.brand-text .brand-chinese {
+  margin-top: 32px;
+  margin-bottom: 68px;
+  font-style: normal;
+}
+.brand-text .brand-chinese span {
+  font-style: italic;
+}
+
+.brand-picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand-picture .brand-pic-two {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.other-work-container {
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+figcaption {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.other-work-content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.other-text {
+  margin-top: 56px;
+  text-align: center;
+}
+.other-text h2 {
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+.other-text p {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.other-text span {
+  font-style: italic;
+}
+
+.other-pic-three {
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.other-pic-two {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.other-pic-three-bottom {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 144px;
+}
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.footer-content {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+  color: #ffffff;
+}
+.footer-content h2 {
+  margin-bottom: 16px;
+}
+.footer-content a {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+.footer-content p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}/*# sourceMappingURL=all.css.map */

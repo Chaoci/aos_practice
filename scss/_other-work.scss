@@ -1,0 +1,45 @@
+.other-work-container{
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+figcaption{
+    margin-top: 16px;
+    text-align: center;
+}
+
+.other-work-content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.other-text{
+    margin-top: 56px;
+    text-align: center;
+    h2{
+        margin-bottom: 16px;
+        font-weight: bold;
+    }
+    p{
+        font-style: normal;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    span{
+        font-style: italic;
+    }
+}
+.other-pic-three{
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+.other-pic-two{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.other-pic-three-bottom{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 144px;
+}
